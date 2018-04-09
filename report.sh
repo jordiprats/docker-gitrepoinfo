@@ -3,6 +3,8 @@
 #/var/eyprepos
 REPOBASEDIR="/home/jprats/git/docker-gitrepoinfo/tmp"
 
+# TODO: analitzar tag
+
 mkdir -p "${REPOBASEDIR}"
 
 if [ -z "$1" ];
